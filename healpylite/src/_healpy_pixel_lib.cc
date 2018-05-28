@@ -26,9 +26,6 @@
 
 #include <Python.h>
 
-#include "arr.h"
-#include "healpix_base.h"
-#include "healpix_map.h"
 #include "_healpy_utils.h"
 
 #include "numpy/arrayobject.h"
