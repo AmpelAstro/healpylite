@@ -10,10 +10,10 @@ import numpy
 setup(name='healpylite',
       version="0.1",
       description='Healpix binning for Python',
-      packages=['healpylite'],
+      packages=['healpy'],
       ext_modules=[
-          Extension('healpylite._healpy_pixel_lib',
-            sources=['healpylite/src/_healpy_pixel_lib.cc'] + glob('healpylite/src/planck/*.cc'),
+          Extension('healpy._healpy_pixel_lib',
+            sources=['healpy/src/_healpy_pixel_lib.cc'] + glob('healpy/src/planck/*.cc'),
             include_dirs=[numpy.get_include()],
             language='c++'
           ),

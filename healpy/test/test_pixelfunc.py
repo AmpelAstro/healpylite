@@ -1,4 +1,4 @@
-from healpylite.pixelfunc import *
+from ..pixelfunc import *
 import numpy as np
 import unittest
 import pytest
